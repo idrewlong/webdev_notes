@@ -108,9 +108,10 @@ The following example contains four HTML elements (`<html>`, `<body>`, `<h1>` an
 
 ## Quotation and Citation Elements
 
-`<blockquote>: Used to indicate that a block of text is a quotation from another source. It typically renders as indented text.`
-`<q>: Stands for "inline quotation". It's used for short inline quotations. Browsers usually render the content inside <q> with quotation marks.`
-`<abbr>: Stands for "abbreviation". It's used to mark up abbreviations or acronyms in a document. You can include the full form of the abbreviation using the title attribute.`
-`<address>: Indicates contact information for the author of a document or an article. It's typically used to include contact details like an email address, physical address, or phone number.`
-`<cite>: Used to mark up the title of a work, such as a book, movie, or paper. It's often used in combination with other elements like <blockquote> or <q> to provide the citation for a quotation.`
-`<bdo>: Stands for "bi-directional override". It's used to override the default text directionality of the content. This can be useful when you need to display text in a different direction, such as from right-to-left instead of left-to-right.`
+`<blockquote>`: Used to indicate that a block of text is a quotation from another source. It typically renders as indented text.
+<q>: Stands for "inline quotation". It's used for short inline quotations. Browsers usually render the content inside <q> with quotation marks.
+<abbr>: Stands for "abbreviation". It's used to mark up abbreviations or acronyms in a document. You can include the full form of the abbreviation using the title attribute.
+
+<address>: Indicates contact information for the author of a document or an article. It's typically used to include contact details like an email address, physical address, or phone number.
+<cite>: Used to mark up the title of a work, such as a book, movie, or paper. It's often used in combination with other elements like <blockquote> or <q> to provide the citation for a quotation.
+<bdo>: Stands for "bi-directional override". It's used to override the default text directionality of the content. This can be useful when you need to display text in a different direction, such as from right-to-left instead of left-to-right.
