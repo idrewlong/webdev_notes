@@ -22,10 +22,6 @@ It must only appear once, at the top of the page (before any HTML tags).
 
 The `<!DOCTYPE>` declaration is not case sensitive.
 
-The `<!DOCTYPE>` declaration for HTML5 is:
-
-`<!DOCTYPE>`
-
 ## Header Tags
 
 ```html
@@ -36,3 +32,10 @@ The `<!DOCTYPE>` declaration for HTML5 is:
 <h5></h5>
 <h6></h6>
 ```
+
+## Paragraph Tags
+
+````
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>```
+````
