@@ -78,9 +78,9 @@ The following example contains four HTML elements (<html>, <body>, <h1> and <p>)
 
 ## Empty Elements
 
-<br>: Line break
-<img>: Image
-<input>: Input field
+`<br>: Line break`
+`<img>: Image`
+`<input>: Input field`
 
 <hr>: Horizontal rule
 <meta>: Metadata
