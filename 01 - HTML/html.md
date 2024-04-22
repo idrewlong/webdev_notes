@@ -76,6 +76,71 @@ The following example contains four HTML elements (`<html>`, `<body>`, `<h1>` an
 </html>
 ```
 
+## Ordered List
+
+An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag.
+
+```html
+<ol>
+  <li>Item#1</li>
+  <li>Item#2</li>
+  <li>Item#3</li>
+</ol>
+```
+
+## Unordered list
+
+An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag.
+
+```html
+<ul>
+  <li>Item#1</li>
+  <li>Item#2</li>
+  <li>Item#3</li>
+</ul>
+```
+
+## Description Lists
+
+The `<dl>` tag defines the description list, the `<dt>` tag defines the term (name), and the `<dd>` tag describes each term:
+
+```html
+<dl>
+  <dt>Item#1</dt>
+  <dd>- description</dd>
+  <dt>Item#2</dt>
+  <dd>- description</dd>
+</dl>
+```
+
+## Forms
+
+The HTML `<form>` element is used to create an HTML form for user input
+
+### Input Fields
+
+The HTML `<input>` element is the most used form element.
+
+An `<input>` element can be displayed in many ways, depending on the type attribute.
+
+- `<input type="text">` Displays a single-line text input field
+- `<input type="radio">` Displays a radio button (for selecting one of many choices)
+- `<input type="checkbox">` Displays a checkbox (for selecting zero or more of many choices)
+- `<input type="submit">` Displays a submit button (for submitting the form)
+- `<input type="button">` Displays a clickable button
+
+### Text Fields
+
+The `<input type="text">` defines a single-line input field for text input.
+
+````html
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>```
+
 ## Empty Elements
 
 - `<br>`: Line break
@@ -114,3 +179,72 @@ The following example contains four HTML elements (`<html>`, `<body>`, `<h1>` an
 - `<address>`: Indicates contact information for the author of a document or an article. It's typically used to include contact details like an email address, physical address, or phone number.
 - `<cite>`: Used to mark up the title of a work, such as a book, movie, or paper. It's often used in combination with other elements like `<blockquote>` or `<q>` to provide the citation for a quotation.
 - `<bdo>`: Stands for "bi-directional override". It's used to override the default text directionality of the content. This can be useful when you need to display text in a different direction, such as from right-to-left instead of left-to-right.
+
+## Block-level Elements
+
+- `<address>`
+- `<article>`
+- `<aside>`
+- `<blockquote>`
+- `<canvas>`
+- `<dd>`
+- `<div>`
+- `<dl>`
+- `<dt>`
+- `<fieldset>`
+- `<figcaption>`
+- `<figure>`
+- `<footer>`
+- `<form>`
+- `<h1>-<h6>`
+- `<header>`
+- `<hr>`
+- `<li>`
+- `<main>`
+- `<nav>`
+- `<noscript>`
+- `<ol>`
+- `<p>`
+- `<pre>`
+- `<section>`
+- `<table>`
+- `<tfoot>`
+- `<ul>`
+- `<video>`
+
+## Inline Elements
+
+- `<a>`
+- `<abbr>`
+- `<acronym>`
+- `<b>`
+- `<bdo>`
+- `<big>`
+- `<br>`
+- `<button>`
+- `<cite>`
+- `<code>`
+- `<dfn>`
+- `<em>`
+- `<i>`
+- `<img>`
+- `<input>`
+- `<kbd>`
+- `<label>`
+- `<map>`
+- `<object>`
+- `<output>`
+- `<q>`
+- `<samp>`
+- `<script>`
+- `<select>`
+- `<small>`
+- `<span>`
+- `<strong>`
+- `<sub>`
+- `<sup>`
+- `<textarea>`
+- `<time>`
+- `<tt>`
+- `<var>`
+````
