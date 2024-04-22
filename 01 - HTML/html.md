@@ -78,40 +78,39 @@ The following example contains four HTML elements (`<html>`, `<body>`, `<h1>` an
 
 ## Empty Elements
 
-`<br>: Line break`
-`<strong>: Defines important text, typically displayed in bold.`
-`<i>: Defines italic text.`
-`<em>: Defines emphasized text, typically displayed in italics.`
-`<u> tag is used to underline text in HTML`
-`<hr>: element is used to separate content (or define a change) in an HTML page`
-`<sub>: Defines subscript text, which appears below the baseline of the text.`
-`<sup>: Defines superscript text, which appears above the baseline of the text.`
-`<del>:indicate deleted or removed text`
-`<pre>:Defines pre-formatted text`
-`<mark> - Marked text`
-`<small> - Smaller text`
-`<ins> - Inserted text`
-`<img>: Image`
-`<input>: Input field`
-`<hr>: Horizontal rule`
-`<meta>: Metadata`
-`<link>: Link reference`
-`<area>: Defines an area inside an image map`
-`<base>: Defines a base URL for all relative URLs in a document`
-`<col>: Defines column properties for each column within a <colgroup> element`
-`<embed>: Embeds external content`
-`<keygen>: Generates a key pair for forms`
-`<param>: Defines parameters for objects`
-`<source>: Defines multiple media resources for media elements like <video> and <audio>`
-`<track>: Defines text tracks for media elements`
-`<wbr>: Word break opportunity`
+`<br>`: Line break
+`<strong>`: Defines important text, typically displayed in bold.
+`<i>`: Defines italic text.
+`<em>`: Defines emphasized text, typically displayed in italics.
+`<u>`: tag is used to underline text in HTML
+`<hr>`: element is used to separate content (or define a change) in an HTML page
+`<sub>`: Defines subscript text, which appears below the baseline of the text.
+`<sup>`: Defines superscript text, which appears above the baseline of the text.
+`<del>`:indicate deleted or removed text
+`<pre>`:Defines pre-formatted text
+`<mark>`: Marked text
+`<small>`: Smaller text
+`<ins>`: Inserted text
+`<img>`: Image
+`<input>`: Input field
+`<hr>`: Horizontal rule
+`<meta>`: Metadata
+`<link>`: Link reference
+`<area>`: Defines an area inside an image map
+`<base>`: Defines a base URL for all relative URLs in a document
+`<col>`: Defines column properties for each column within a `<colgroup>` element
+`<embed>`: Embeds external content
+`<keygen>`: Generates a key pair for forms
+`<param>`: Defines parameters for objects
+`<source>`: Defines multiple media resources for media elements like `<video>` and `<audio>`
+`<track>`: Defines text tracks for media elements
+`<wbr>`: Word break opportunity
 
 ## Quotation and Citation Elements
 
 `<blockquote>`: Used to indicate that a block of text is a quotation from another source. It typically renders as indented text.
-<q>: Stands for "inline quotation". It's used for short inline quotations. Browsers usually render the content inside <q> with quotation marks.
-<abbr>: Stands for "abbreviation". It's used to mark up abbreviations or acronyms in a document. You can include the full form of the abbreviation using the title attribute.
-
-<address>: Indicates contact information for the author of a document or an article. It's typically used to include contact details like an email address, physical address, or phone number.
-<cite>: Used to mark up the title of a work, such as a book, movie, or paper. It's often used in combination with other elements like <blockquote> or <q> to provide the citation for a quotation.
-<bdo>: Stands for "bi-directional override". It's used to override the default text directionality of the content. This can be useful when you need to display text in a different direction, such as from right-to-left instead of left-to-right.
+`<q>`: Stands for "inline quotation". It's used for short inline quotations. Browsers usually render the content inside `<q>` with quotation marks.
+`<abbr>`: Stands for "abbreviation". It's used to mark up abbreviations or acronyms in a document. You can include the full form of the abbreviation using the title attribute.
+`<address>`: Indicates contact information for the author of a document or an article. It's typically used to include contact details like an email address, physical address, or phone number.
+`<cite>`: Used to mark up the title of a work, such as a book, movie, or paper. It's often used in combination with other elements like `<blockquote>` or `<q>` to provide the citation for a quotation.
+`<bdo>`: Stands for "bi-directional override". It's used to override the default text directionality of the content. This can be useful when you need to display text in a different direction, such as from right-to-left instead of left-to-right.
