@@ -135,12 +135,12 @@ The `<input type="text">` defines a single-line input field for text input.
 
 ```html
 <form>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
+  <label for="fname">First name:</label><br />
+  <input type="text" id="fname" name="fname" /><br />
+  <label for="lname">Last name:</label><br />
+  <input type="text" id="lname" name="lname" />
 </form>
-
+```
 
 ## Empty Elements
 
@@ -248,5 +248,3 @@ The `<input type="text">` defines a single-line input field for text input.
 - `<time>`
 - `<tt>`
 - `<var>`
-
-```
