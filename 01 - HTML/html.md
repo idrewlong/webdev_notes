@@ -133,12 +133,61 @@ An `<input>` element can be displayed in many ways, depending on the type attrib
 
 The `<input type="text">` defines a single-line input field for text input.
 
+The `<label>` tag defines a label for many form elements.
+
+The `<label>` element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element.
+
 ```html
 <form>
   <label for="fname">First name:</label><br />
   <input type="text" id="fname" name="fname" /><br />
   <label for="lname">Last name:</label><br />
   <input type="text" id="lname" name="lname" />
+</form>
+```
+
+### Select
+
+The `<select>` element defines a drop-down list:
+
+```html
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+```
+
+The `<option>` element defines an option that can be selected.
+
+To define a pre-selected option, add the `selected` attribute to the option
+
+### Button Element
+
+The `<button>` element defines a clickable button:
+
+```html
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+```
+
+### The `<fieldset>` and `<legend>` Elements
+
+The `<fieldset>` element is used to group related data in a form.
+
+The `<legend>` element defines a caption for the `<fieldset>` element.
+
+```html
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br />
+    <input type="text" id="fname" name="fname" value="John" /><br />
+    <label for="lname">Last name:</label><br />
+    <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+    <input type="submit" value="Submit" />
+  </fieldset>
 </form>
 ```
 
