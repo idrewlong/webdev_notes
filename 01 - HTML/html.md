@@ -22,6 +22,24 @@ It must only appear once, at the top of the page (before any HTML tags).
 
 The `<!DOCTYPE>` declaration is not case sensitive.
 
+## Semantic HTML
+
+Semantic HTML means that your HTML tags convey the actual meaning of what they are used for.
+
+- `<header>`: The `<header>` element defines the introductory section of a web page. It contains items such as the logo, navigation, theme switcher, and search bar.
+
+- `<nav>`: The `<nav>` element specifies the navigation items of the page such as home, contact, about, FAQs, and so on.
+
+- `<main>`: The `<main>` element is conventionally treated as the immediate descendant of the tag. It contains the main sections of the HTML document apart from `<header>` and `<footer>`. Ideally, there should be just one of these in the whole HTML document.
+
+- `<section>`: The `<section>` element defines a particular section of the web page. This may be the showcase section, about section, contact section, or others. You can use numerous sections in a single HTML document.
+
+- `<article>`: The `<article>` element represents a certain part of a web page that conveys some particular information. Such information could be a combination of text, images, videos, and embeds. Look at this element as a standalone blog post on a page containing excerpts about other blog posts.
+
+- `<aside>`: As the name implies, this represents a sidebar on a web page. It is usually a part of the web page that is not directly related to the main content.
+
+- `<footer>`: The `<footer>` element accommodates items such as quick links, copyright information, or any other data related to the entire website or web page.
+
 ## Header Tags
 
 ```html
@@ -189,6 +207,48 @@ The `<legend>` element defines a caption for the `<fieldset>` element.
     <input type="submit" value="Submit" />
   </fieldset>
 </form>
+```
+
+## Tables
+
+Example:
+
+```html
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+```
+
+### Table Cells
+
+Each table cell is defined by a `<td>` and a `</td>` tag.
+
+td stands for table data.
+
+Everything between `<td>` and `</td>` are the content of the table cell.
+
+```html
+<table>
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+</table>
 ```
 
 ## Empty Elements
