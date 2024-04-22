@@ -35,7 +35,15 @@ The `<!DOCTYPE>` declaration is not case sensitive.
 
 ## Paragraph Tags
 
-````
+```html
 <p>This is a paragraph.</p>
-<p>This is another paragraph.</p>```
-````
+<p>This is another paragraph.</p>
+```
+
+## Links
+
+HTML links are defined with the <a> tag:
+
+```html
+<a href="https://www.github.com">This is a link</a>
+```
