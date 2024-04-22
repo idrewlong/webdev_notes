@@ -14,6 +14,18 @@ a language that a computer system understands and uses to interpret commands.
 
 HTML determines the structure of web pages. This structure alone is not enough to make a web page look good and interactive. So you'll use assisted technologies such as CSS and JavaScript to make your HTML beautiful and add interactivity, respectively.
 
+## <!DOCTYPE>
+
+The `<!DOCTYPE>` declaration represents the document type, and helps browsers to display web pages correctly.
+
+It must only appear once, at the top of the page (before any HTML tags).
+
+The `<!DOCTYPE>` declaration is not case sensitive.
+
+The `<!DOCTYPE>` declaration for HTML5 is:
+
+`<!DOCTYPE>`
+
 ## Header Tags
 
 ```html
