@@ -47,3 +47,50 @@ HTML links are defined with the <a> tag:
 ```html
 <a href="https://www.github.com">This is a link</a>
 ```
+
+## Images
+
+HTML images are defined with the <img> tag.
+
+The source file (src), alternative text (alt), width, and height are provided as attributes:
+
+```html
+<img src="pfp.jpg" alt="Picture of Me" width="104" height="142" />
+```
+
+## Nested Elements
+
+HTML elements can be nested (this means that elements can contain other elements).
+
+All HTML documents consist of nested HTML elements.
+
+The following example contains four HTML elements (<html>, <body>, <h1> and <p>):
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+  </body>
+</html>
+```
+
+## Empty Elements
+
+<br>: Line break
+<img>: Image
+<input>: Input field
+
+<hr>: Horizontal rule
+<meta>: Metadata
+<link>: Link reference
+<area>: Defines an area inside an image map
+<base>: Defines a base URL for all relative URLs in a document
+<col>: Defines column properties for each column within a <colgroup> element
+<embed>: Embeds external content
+<keygen>: Generates a key pair for forms
+<param>: Defines parameters for objects
+<source>: Defines multiple media resources for media elements like <video> and <audio>
+<track>: Defines text tracks for media elements
+<wbr>: Word break opportunity
