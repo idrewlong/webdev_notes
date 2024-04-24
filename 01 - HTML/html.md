@@ -76,6 +76,21 @@ The source file (src), alternative text (alt), width, and height are provided as
 <img src="pfp.jpg" alt="Picture of Me" width="104" height="142" />
 ```
 
+## HTML Entities
+
+- `&nbsp;`: Non breaking space
+- `&lt;`:< less than
+- `&gt;`: > greater than
+- `&amp;`: ampersand
+- `&quot;`: Double Quotation
+- `&apos;`: Single Quotation
+- `&cent;`: cent
+- `&pound;`: pound
+- `&yen;`: yen
+- `&euro;`: euro
+- `&copy;`: copyright
+- `&reg;`: trademark
+
 ## Nested Elements
 
 HTML elements can be nested (this means that elements can contain other elements).
